@@ -1,0 +1,48 @@
+body{
+    background-color: #B2C9AB;
+    text-align: center;
+}
+h3{
+    color: #666A86;
+}
+.start{
+    font-size: small;
+    color: #666A86;
+}
+.player{
+    height: 20px;
+    width: 150px;
+}
+.play-turn{
+    color: brown;
+    font-size: x-large;
+    text-shadow : #666A86;
+}
+.container {
+    height: 70vh;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.game{
+    background-color: #E8DDB5;
+    height: 60vmin;
+    width: 60vmin;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+   height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(184, 66, 66, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+}
+.reset-btn{
+    background-color: #E8DDB5;
+}
